@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #F39C12;
+    --clr-main: #6b055d;
     --clr-main-light: #fff;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
@@ -31,7 +31,7 @@ a {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: rgb(17, 15, 15);
+    background-color: rgb(51, 19, 63);
 }
 
 aside {
@@ -114,13 +114,13 @@ aside {
 
 .numerito {
     background-color: var(--clr-white);
-    color: #F39C12;
+    color: #6b055d;
     padding: .15rem .25rem;
     border-radius: .25rem;
 }
 
 .boton-carrito.active .numerito {
-    background-color: #F39C12;
+    background-color: #6b055d;
     color: var(--clr-white);
 }
 
@@ -138,7 +138,7 @@ main {
 }
 
 .titulo-principal {
-    color: #F39C12;
+    color: #6b055d;
     margin-bottom: 2rem;
 }
 
@@ -154,7 +154,7 @@ main {
 }
 
 .producto-detalles {
-    background-color: #F39C12;
+    background-color: #6b055d;
     color: var(--clr-white);
     padding: .5rem;
     border-radius: 1rem;
@@ -172,7 +172,7 @@ main {
 .producto-agregar {
     border: 0;
     background-color: var(--clr-white);
-    color: #F39C12;
+    color: #6b055d;
     padding: .4rem;
     text-transform: uppercase;
     border-radius: 2rem;
@@ -182,7 +182,7 @@ main {
 }
 
 .producto-agregar:hover {
-    background-color: rgb(255, 72, 0);
+    background-color: rgb(255, 208, 0);
     color: var(--clr-white);
 }
 
@@ -197,7 +197,7 @@ main {
 
 .carrito-vacio,
 .carrito-comprado {
-    color: #F39C12;
+    color: #6b055d;
 }
 
 .carrito-productos {
@@ -211,7 +211,7 @@ main {
     justify-content: space-between;
     align-items: center;
     background-color: var(--clr-gray);
-    color: #F39C12;
+    color: #6b055d;
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
@@ -243,7 +243,7 @@ main {
     background-color: var(--clr-gray);
     padding: 1rem;
     border-radius: 1rem;
-    color: #F39C12;
+    color: #6b055d;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -256,7 +256,7 @@ main {
     display: flex;
     background-color: var(--clr-gray);
     padding: 1rem;
-    color: #F39C12;
+    color: #6b055d;
     text-transform: uppercase;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -265,7 +265,7 @@ main {
 
 .carrito-acciones-comprar {
     border: 0;
-    background-color: #F39C12;
+    background-color: #6b055d;
     padding: 1rem;
     color: var(--clr-white);
     text-transform: uppercase;
@@ -311,7 +311,7 @@ main {
     aside {
         position: fixed;
         z-index: 9;
-        background-color: #F39C12;
+        background-color: #6b055d;
         left: 0;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .75);
         transform: translateX(-100%);
