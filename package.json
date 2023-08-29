@@ -1,0 +1,23 @@
+{
+  "name": "e-commerce.github.io",
+  "version": "1.0.0",
+  "description": "![logo-blanco](https://user-images.githubusercontent.com/98677728/210154321-5b44740e-8be2-407f-b111-04182677eb55.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1994d/e-commerce.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1994d/e-commerce.github.io/issues"
+  },
+  "homepage": "https://github.com/m1994d/e-commerce.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

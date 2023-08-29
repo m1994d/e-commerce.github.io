@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rosa Dorada</title>
+    <title>Rosa Dorada | STORE</title>
+    <link rel="shortcut icon" href="./img/FAVICON_ROSADORADA-06.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    
 </head>
 <body>
     <div class="mi-div">
     <div class="wrapper">
         <header class="header-mobile">
-            <h1 class="logo">Rosa Dorada</h1>
-            <img src="img/logo-blanco-02.png"> 
+            <h1 class="logo">STORE</h1>
+            <img src="img/ROSADORADA 72-05.png"> 
             <button class="open-menu" id="open-menu">
                 <i class="bi bi-list"></i>
             </button>
@@ -24,13 +25,13 @@
                 <i class="bi bi-x"></i>
             </button>
             <header>
-                <h1 class="logo">Rosa Dorada</h1>
-                <img src="img/logo-blanco-02.png">
+                <h1 class="logo">STORE</h1>
+                <img src="img/ROSADORADA 72-05.png">
             </header>
             <nav>
                 <ul>
                     <li>
-                        <a class="boton-menu boton-volver" href="./index.html">
+                        <a class="boton-menu boton-volver" href="./inicio.html">
                             <i class="bi bi-arrow-return-left"></i> Seguir comprando
                         </a>
                     </li>
@@ -65,6 +66,8 @@
                         </div>
                         <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
                     </div>
+                    <button id="comprarAhoraButton">Comprar ahora</button>
+
                 </div>
 
                 <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
@@ -76,5 +79,20 @@
     
     <script src="./js/carrito.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        document.getElementById('comprarAhoraButton').addEventListener('click', function() {
+          // Realizar una solicitud al servidor
+          fetch('/realizarCompra', { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+              alert(data.message); // Mostrar la respuesta del servidor
+            })
+            .catch(error => {
+              console.error('Error:', error);
+            });
+        });
+        </script>
+        
 </body>
 </html>

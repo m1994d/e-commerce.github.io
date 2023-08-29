@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rosa Dorada</title>
+    <title>Rosa Dorada | STORE</title>
+    <link rel="shortcut icon" href="./img/FAVICON_ROSADORADA-06.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -12,8 +13,8 @@
 
     <div class="wrapper">
         <header class="header-mobile">
-            <h1 class="logo">Rosa Dorada</h1>
-            <img src="/img/logo-blanco-02.png" alt="">
+            <h1 class="logo">STORE</h1>
+            <img src="/img/ROSADORADA 72-05.png" alt="">
             <button class="open-menu" id="open-menu">
                 <i class="bi bi-list"></i>
             </button>
@@ -23,8 +24,8 @@
                 <i class="bi bi-x"></i>
             </button>
             <header>
-                <h1 class="logo">Rosa Dorada</h1>
-                <img src="img/logo-blanco-02.png">
+                <h1 class="logo">STORE</h1>
+                <img src="img/ROSADORADA 72-05.png">
             </header>
             <nav>
                 <ul class="menu">
@@ -32,13 +33,16 @@
                         <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
                     </li>
                     <li>
-                        <button id="Ojos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Ojos</button>
+                        <button id="Facial" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Facial</button>
                     </li>
                     <li>
                         <button id="Rostro" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Rostro</button>
                     </li>
                     <li>
-                        <button id="Labios" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Labios</button>
+                        <button id="Corporal" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Corporal</button>
+                    </li>
+                    <li>
+                        <button id="Accesorios" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Accesorios</button>
                     </li>
                     <li>
                         <a class="boton-menu boton-carrito" href="./carrito.html">
@@ -61,5 +65,20 @@
     
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script>
+        document.getElementById('comprarAhoraButton').addEventListener('click', function() {
+          // Realizar una solicitud al servidor
+          fetch('/realizarCompra', { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+              alert(data.message); // Mostrar la respuesta del servidor
+            })
+            .catch(error => {
+              console.error('Error:', error);
+            });
+        });
+        </script>
+        
 </body>
 </html>

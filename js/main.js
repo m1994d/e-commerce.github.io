@@ -1,61 +1,221 @@
 // PRODUCTOS
 const productos = [
-    // Ojos
+    // Facial
     {
-        id: "abrigo-01",
-        titulo: "Abrigo 01",
-        imagen: "./img/Ojos/01.jpg",
+        id: "Facial-01",
+        titulo: "Facial 01",
+        imagen: "./img/Facial/0-1.png",
         categoria: {
-            nombre: "Ojos",
-            id: "Ojos"
+            nombre: "Facial",
+            id: "Facial"
         },
         precio: 1000
     },
     {
-        id: "abrigo-02",
-        titulo: "Abrigo 02",
-        imagen: "./img/Ojos/02.jpg",
+        id: "Facial-02",
+        titulo: "Facial 02",
+        imagen: "./img/Facial/0-2.png",
         categoria: {
-            nombre: "Ojos",
-            id: "Ojos"
+            nombre: "Facial",
+            id: "Facial"
         },
         precio: 1000
     },
     {
-        id: "abrigo-03",
-        titulo: "Abrigo 03",
-        imagen: "./img/Ojos/03.jpg",
+        id: "Facial-03",
+        titulo: "Facial 03",
+        imagen: "./img/Facial/0-3.png",
         categoria: {
-            nombre: "Ojos",
-            id: "Ojos"
+            nombre: "Facial",
+            id: "Facial"
         },
         precio: 1000
     },
     {
-        id: "abrigo-04",
-        titulo: "Abrigo 04",
-        imagen: "./img/Ojos/04.jpg",
+        id: "Facial-04",
+        titulo: "Facial 04",
+        imagen: "./img/Facial/0-4.png",
         categoria: {
-            nombre: "Ojos",
-            id: "Ojos"
+            nombre: "Facial",
+            id: "Facial"
         },
         precio: 1000
     },
     {
-        id: "abrigo-05",
-        titulo: "Abrigo 05",
-        imagen: "./img/Ojos/05.jpg",
+        id: "Facial-05",
+        titulo: "Facial 05",
+        imagen: "./img/Facial/0-5.png",
         categoria: {
-            nombre: "Ojos",
-            id: "Ojos"
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 06",
+        imagen: "./img/Facial/0-6.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 07",
+        imagen: "./img/Facial/0-7.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 08",
+        imagen: "./img/Facial/0-8.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 09",
+        imagen: "./img/Facial/0-9.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 10",
+        imagen: "./img/Facial/0-10.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 11",
+        imagen: "./img/Facial/0-11.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 12",
+        imagen: "./img/Facial/0-12.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 13",
+        imagen: "./img/Facial/0-13.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 14",
+        imagen: "./img/Facial/0-14.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 15",
+        imagen: "./img/Facial/0-15.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 16",
+        imagen: "./img/Facial/0-16.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 17",
+        imagen: "./img/Facial/0-17.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 18",
+        imagen: "./img/Facial/0-18.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 19",
+        imagen: "./img/Facial/0-19.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 20",
+        imagen: "./img/Facial/0-20.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
+        },
+        precio: 1000
+    },
+    {
+        id: "Facial-05",
+        titulo: "Facial 0-21",
+        imagen: "./img/Facial/0-21.png",
+        categoria: {
+            nombre: "Facial",
+            id: "Facial"
         },
         precio: 1000
     },
     // Rostro
     {
-        id: "Polvo de hadas blanco caja Kiss Beauty",
-        titulo: "Polvo de hadas blanco caja Kiss Beauty",
-        imagen: "./img/Rosa Dorada.png",
+        id: "Rostro-04",
+        titulo: "Rostro 22",
+        imagen: "./img/Rostro/0-22.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
@@ -63,9 +223,9 @@ const productos = [
         precio: 1000
     },
     {
-        id: "Brocha viral grande",
-        titulo: "Brocha viral grande",
-        imagen: "./img/Rostro/brocha viral grande.png",
+        id: "Rostro-04",
+        titulo: "Rostro 04",
+        imagen: "./img/Rostro/0-23.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
@@ -73,9 +233,9 @@ const productos = [
         precio: 1000
     },
     {
-        id: "camiseta-03",
-        titulo: "Camiseta 03",
-        imagen: "./img/Rostro/03.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 24",
+        imagen: "./img/Rostro/0-24.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
@@ -83,9 +243,9 @@ const productos = [
         precio: 1000
     },
     {
-        id: "camiseta-04",
-        titulo: "Camiseta 04",
-        imagen: "./img/Rostro/04.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 25",
+        imagen: "./img/Rostro/0-25.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
@@ -93,9 +253,9 @@ const productos = [
         precio: 1000
     },
     {
-        id: "camiseta-05",
-        titulo: "Camiseta 05",
-        imagen: "./img/Rostro/05.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 26",
+        imagen: "./img/Rostro/0-26.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
@@ -103,9 +263,9 @@ const productos = [
         precio: 1000
     },
     {
-        id: "camiseta-06",
-        titulo: "Camiseta 06",
-        imagen: "./img/Rostro/06.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 27",
+        imagen: "./img/Rostro/0-27.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
@@ -113,9 +273,9 @@ const productos = [
         precio: 1000
     },
     {
-        id: "camiseta-07",
-        titulo: "Camiseta 07",
-        imagen: "./img/Rostro/07.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 28",
+        imagen: "./img/Rostro/0-28.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
@@ -123,66 +283,499 @@ const productos = [
         precio: 1000
     },
     {
-        id: "camiseta-08",
-        titulo: "Camiseta 08",
-        imagen: "./img/Rostro/08.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 29",
+        imagen: "./img/Rostro/0-29.png",
         categoria: {
             nombre: "Rostro",
             id: "Rostro"
         },
         precio: 1000
     },
-    // Labios
     {
-        id: "pantalon-01",
-        titulo: "Pantalón 01",
-        imagen: "./img/Labios/01.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 30",
+        imagen: "./img/Rostro/0-30.png",
         categoria: {
-            nombre: "Labios",
-            id: "Labios"
+            nombre: "Rostro",
+            id: "Rostro"
         },
         precio: 1000
     },
     {
-        id: "pantalon-02",
-        titulo: "Pantalón 02",
-        imagen: "./img/Labios/02.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 31",
+        imagen: "./img/Rostro/0-31.png",
         categoria: {
-            nombre: "Labios",
-            id: "Labios"
+            nombre: "Rostro",
+            id: "Rostro"
         },
         precio: 1000
     },
     {
-        id: "pantalon-03",
-        titulo: "Pantalón 03",
-        imagen: "./img/Labios/03.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 31",
+        imagen: "./img/Rostro/0-32.png",
         categoria: {
-            nombre: "Labios",
-            id: "Labios"
+            nombre: "Rostro",
+            id: "Rostro"
         },
         precio: 1000
     },
     {
-        id: "pantalon-04",
-        titulo: "Pantalón 04",
-        imagen: "./img/Labios/04.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 32",
+        imagen: "./img/Rostro/0-32.png",
         categoria: {
-            nombre: "Labios",
-            id: "Labios"
+            nombre: "Rostro",
+            id: "Rostro"
         },
         precio: 1000
     },
     {
-        id: "pantalon-05",
-        titulo: "Pantalón 05",
-        imagen: "./img/Labios/05.jpg",
+        id: "Rostro-04",
+        titulo: "Rostro 33",
+        imagen: "./img/Rostro/0-33.png",
         categoria: {
-            nombre: "Labios",
-            id: "Labios"
+            nombre: "Rostro",
+            id: "Rostro"
         },
         precio: 1000
-    }
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 34",
+        imagen: "./img/Rostro/0-34.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 35",
+        imagen: "./img/Rostro/0-35.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 36",
+        imagen: "./img/Rostro/0-36.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 37",
+        imagen: "./img/Rostro/0-37.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 38",
+        imagen: "./img/Rostro/0-38.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 39",
+        imagen: "./img/Rostro/0-39.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 40",
+        imagen: "./img/Rostro/0-40.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 5300
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 41",
+        imagen: "./img/Rostro/0-41.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 42",
+        imagen: "./img/Rostro/0-42.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 43",
+        imagen: "./img/Rostro/0-43.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 44",
+        imagen: "./img/Rostro/0-44.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 45",
+        imagen: "./img/Rostro/0-45.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 46",
+        imagen: "./img/Rostro/0-46.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 47",
+        imagen: "./img/Rostro/0-47.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 48",
+        imagen: "./img/Rostro/0-48.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 49",
+        imagen: "./img/Rostro/0-49.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 50",
+        imagen: "./img/Rostro/0-50.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 51",
+        imagen: "./img/Rostro/0-51.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 52",
+        imagen: "./img/Rostro/0-52.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 53",
+        imagen: "./img/Rostro/0-53.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 54",
+        imagen: "./img/Rostro/0-54.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 55",
+        imagen: "./img/Rostro/0-55.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 56",
+        imagen: "./img/Rostro/0-56.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 57",
+        imagen: "./img/Rostro/0-57.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 58",
+        imagen: "./img/Rostro/0-58.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 59",
+        imagen: "./img/Rostro/0-59.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 60",
+        imagen: "./img/Rostro/0-60.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 61",
+        imagen: "./img/Rostro/0-61.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 62",
+        imagen: "./img/Rostro/0-62.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    {
+        id: "Rostro-04",
+        titulo: "Rostro 63",
+        imagen: "./img/Rostro/0-63.png",
+        categoria: {
+            nombre: "Rostro",
+            id: "Rostro"
+        },
+        precio: 1000
+    },
+    // Corporal
+    {
+        id: "Corporal-01",
+        titulo: "Corporal 64",
+        imagen: "./img/Corporal/0-64.png",
+        categoria: {
+            nombre: "Corporal",
+            id: "Corporal"
+        },
+        precio: 1000
+    },
+    {
+        id: "Corporal-01",
+        titulo: "Corporal 65",
+        imagen: "./img/Corporal/0-65.png",
+        categoria: {
+            nombre: "Corporal",
+            id: "Corporal"
+        },
+        precio: 1000
+    },
+    {
+        id: "Corporal-01",
+        titulo: "Corporal 66",
+        imagen: "./img/Corporal/0-66.png",
+        categoria: {
+            nombre: "Corporal",
+            id: "Corporal"
+        },
+        precio: 1000
+    },
+    {
+        id: "Corporal-01",
+        titulo: "Corporal 67",
+        imagen: "./img/Corporal/0-67.png",
+        categoria: {
+            nombre: "Corporal",
+            id: "Corporal"
+        },
+        precio: 1000
+    },
+    {
+        id: "Corporal-01",
+        titulo: "Corporal 68",
+        imagen: "./img/Corporal/0-68.png",
+        categoria: {
+            nombre: "Corporal",
+            id: "Corporal"
+        },
+        precio: 1000
+    },
+    {
+        id: "Corporal-01",
+        titulo: "Corporal 69",
+        imagen: "./img/Corporal/0-69.png",
+        categoria: {
+            nombre: "Corporal",
+            id: "Corporal"
+        },
+        precio: 1000
+    },
+    
+    // Accesorios
+
+    {
+        id: "Accesorios",
+        titulo: "Accesorios 70",
+        imagen: "./img/Accesorios/0-70.png",
+        categoria: {
+            nombre: "Accesorios",
+            id: "Accesorios"
+        },
+        precio: 1000
+    },
+    {
+        id: "Accesorios",
+        titulo: "Accesorios 71",
+        imagen: "./img/Accesorios/0-71.png",
+        categoria: {
+            nombre: "Accesorios",
+            id: "Accesorios"
+        },
+        precio: 1000
+    },
+    {
+        id: "Accesorios",
+        titulo: "Accesorios 72",
+        imagen: "./img/Accesorios/0-72.png",
+        categoria: {
+            nombre: "Accesorios",
+            id: "Accesorios"
+        },
+        precio: 1000
+    },
+    {
+        id: "Accesorios",
+        titulo: "Accesorios 73",
+        imagen: "./img/Accesorios/0-73.png",
+        categoria: {
+            nombre: "Accesorios",
+            id: "Accesorios"
+        },
+        precio: 1000
+    },
+    {
+        id: "Accesorios",
+        titulo: "Accesorios 74",
+        imagen: "./img/Accesorios/0-74.png",
+        categoria: {
+            nombre: "Accesorios",
+            id: "Accesorios"
+        },
+        precio: 1000
+    },
+    {
+        id: "Accesorios",
+        titulo: "Accesorios 75",
+        imagen: "./img/Accesorios/0-75.png",
+        categoria: {
+            nombre: "Accesorios",
+            id: "Accesorios"
+        },
+        precio: 1000
+    },
+    {
+        id: "Accesorios",
+        titulo: "Accesorios 76",
+        imagen: "./img/Accesorios/0-76.png",
+        categoria: {
+            nombre: "Accesorios",
+            id: "Accesorios"
+        },
+        precio: 1000
+    },
 ];
 
 
